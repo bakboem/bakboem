@@ -74,4 +74,5 @@ I’m open to connecting with engineers, product managers, writers, and AI resea
 > 我相信「结构化系统 + 智能 Agent」会成为未来创作工具的核心。  
 > I believe “structured systems + intelligent agents” will become the backbone of future creative tools.  
 > 正如电子表格改变了商业，DSL + LLM 也将改变想象力的边界。  
-> Just as spreadsheets transformed business, DSL + LLMs will expand the boundaries of imagination.  
+> Just as spreadsheets transformed business, DSL + LLMs will expand the boundaries of imagination.
+> 👌
