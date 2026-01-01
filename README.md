@@ -1,4 +1,4 @@
-markdown
+
 # 👋 Hi, I’m 白帆 (bakboem)
 
 Solo Founder · CEO & CTO  
