@@ -1,4 +1,4 @@
-```markdown
+markdown
 # 👋 Hi, I’m 白帆 (bakboem)
 
 Solo Founder · CEO & CTO  
@@ -133,4 +133,4 @@ I build systems that can survive **being questioned**.
 SenkNet is my answer to:
 
 > *“What if software decisions had to be honest?”*
-```
+
