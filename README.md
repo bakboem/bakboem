@@ -1,91 +1,136 @@
-# 👋 Welcome to my space
+```markdown
+# 👋 Hi, I’m 白帆 (bakboem)
 
-Hi, I’m **bakboem（白帆）**, a full-stack engineer and infra architect based in Korea.  
-I build **high-automation backend systems**, **AI-augmented workflows**, and **resilient cloud platforms** — solo, end-to-end.
+Solo Founder · CEO & CTO  
+Full-stack engineer & infrastructure architect based in Korea.
 
-Right now I'm executing a **three-pillar strategy**:
+I run a **one-person software company** building **stateful matching systems**,  
+**event-driven backends**, and **fully reproducible infrastructure** — end to end.
 
----
-
-## 🧭 What I'm building now
-
-### **1️⃣ SenkNet — 匹配平台（业务主线）**
-A matching-first social platform for foreigners in Korea.  
-Not a “timeline community” — it's a **real-time matching engine** powered by:
-
-- 🔖 Structured tagging, event analysis, user preference modeling  
-- ⚡ Kafka / NATS event streaming  
-- 🌐 Multilingual ecosystem (CN / EN / KR)  
-- 🔄 Worker + WebSocket full pipeline  
-- 💰 Planned membership + coin economy
-
-This is the **core business** and long-term product I'm most invested in.
+I don’t build feeds.  
+I don’t build generic communities.  
+I build systems that can **freeze a moment, make a decision, and explain it**.
 
 ---
 
-### **2️⃣ SenkNet Infrastructure — 完整自动化的云与本地环境**
-A reproducible, tightly-controlled infrastructure stack:
+## 🧭 What I’m Building
 
-- AWS → migrated to a **low-cost, high-reliability single-server architecture (t4g + Compose)**  
-- GitHub Actions → ECR → ArgoCD (or local stack)  
-- PostgreSQL 18 built from source + dedicated EC2 EBS data layer  
-- Prometheus / Loki / Grafana → complete observability plane  
-- Kafka (KRaft) + NATS → event-driven backbone  
-- Local / test / prod → **100% configuration parity**
+### **SenkNet — A Real-Time Need Verification & Matching Engine**
 
-Goal:  
-> **Enterprise-grade infra, operated by one person.**
+SenkNet is a matching-first platform for foreigners in Korea.
 
----
+It is **not** a social timeline.  
+It is a system designed around **ephemeral needs** and **repeatable judgment**.
 
-### **3️⃣ Senk AI Agents — 未来的产品线（长期）**
-I'm building an **agent-native world and content ecosystem**:
+Core principles:
 
-- Matching logic exposed as APIs for external AI Agents  
-- Multi-Agent structured workflows  
-- DSL-based world and system rules  
-- Automated translation / moderation / matching / routing
+- Needs are **time-bounded and state-frozen**
+- Each match is a **single, explainable decision**
+- No long-term personality profiling
+- No hidden preference inference
+- Every outcome is **replayable, inspectable, and auditable**
 
-This line becomes SenkNet’s **second growth curve**.
+What the system is optimized for:
 
----
+- High-concurrency matching under constrained time windows
+- Event-driven pipelines (Kafka / NATS)
+- Deterministic scoring with full explainability
+- WebSocket-based feedback and intent loops
+- Multilingual runtime (CN / KR / EN)
 
-## 🧠 Interests & Focus
-
-- High-concurrency matching systems  
-- Agentic apps (matching, translation, moderation, narrative)  
-- DSL × AI world/simulation frameworks  
-- Automated CI/CD & self-hosted pipelines  
-- Multilingual content ecosystems (CN / KR / EN)
+This is the **core product** and the system I am actively operating and stress-testing.
 
 ---
 
-## 🛠️ Tech stack
+## 🏗 Infrastructure Philosophy
 
-| Area | Tools |
-|------|------|
-| Infra | Terraform, AWS, GitHub Actions, ECR, EC2, EBS |
-| Backend | Go, PostgreSQL 18, Kafka, NATS, Redis/ElastiCache |
-| Observability | Fluent-bit, Loki, Prometheus Agent, Grafana |
-| Frontend | Next.js App Router, SSR, multilingual routing |
-| Automation | Docker Compose, Make, bash pipelines |
-| AI | OpenAI API, workflow automation, future MCP agents |
+I operate **enterprise-grade infrastructure as a one-person company**.
+
+Design rules:
+
+- Full automation
+- No hidden state
+- No environment drift
+- Production ≈ Local
+
+Current architecture highlights:
+
+- AWS single-server architecture (t4g + Docker Compose)
+- PostgreSQL 18 (self-built, full control, no managed DB)
+- Kafka (KRaft) + NATS as the event backbone
+- Prometheus / Loki / Grafana as a separate observability plane
+- GitHub Actions → ECR → reproducible deployments
+- Local / test / prod with **100% configuration parity**
+
+Goal:
+
+> **Maximum system clarity with minimum operational surface area.**
 
 ---
 
-## 🤝 Looking to connect
+## 🧠 What I Care About
 
-Open to connecting with people who work on:
+- Matching systems under real-world constraints
+- Explainable, replayable decision pipelines
+- Event-driven architectures that don’t lie
+- Stateful systems that respect time and causality
+- Multilingual platforms with real operational depth
 
-- Multilingual platforms  
-- Matching engines  
-- Agent-native systems  
-- AI × Infra  
-- DSL-based narrative/simulation engines  
+I’m especially interested in systems where:
+
+> *Every result must be defensible.*
 
 ---
 
-## ⚡ Fun fact
+## 🛠 Tech Stack (Current)
 
-> I believe the next generation of software will be shaped by **AI Agents + stateful systems** —  
-> and SenkNet is my way of building that future ahead of time.
+**Backend**
+- Go
+- PostgreSQL 18
+- Kafka (KRaft)
+- NATS
+- Redis / ElastiCache
+
+**Infrastructure**
+- AWS (EC2, EBS, ECR)
+- Terraform
+- GitHub Actions
+- Docker Compose
+- Make / Bash automation
+
+**Observability**
+- Fluent Bit
+- Loki
+- Prometheus Agent
+- Grafana
+
+**Frontend**
+- Next.js (App Router, SSR)
+- Multilingual routing
+
+**AI (Selective, Non-Magical)**
+- OpenAI API
+- Structured workflows
+- Agent integration as tooling, not decision authority
+
+---
+
+## 🤝 Open to Conversations About
+
+- Matching engines
+- Event-driven systems
+- Explainability-first architectures
+- Agent-assisted (not agent-controlled) products
+- DSL-based world or rule systems
+
+---
+
+## ⚡ Personal Note
+
+I don’t chase trends.  
+I build systems that can survive **being questioned**.
+
+SenkNet is my answer to:
+
+> *“What if software decisions had to be honest?”*
+```
