@@ -15,9 +15,9 @@ I build systems that can **freeze a moment, make a decision, and explain it**.
 
 ## 🧭 What I’m Building
 
-### **SenkNet — A Real-Time Need Verification & Matching Engine**
+### **WorkFit — A Real-Time Need Verification & Matching Engine**
 
-SenkNet is a matching-first platform for foreigners in Korea.
+WorkFit is a matching-first platform for foreigners in Korea.
 
 It is **not** a social timeline.  
 It is a system designed around **ephemeral needs** and **repeatable judgment**.
@@ -130,7 +130,7 @@ I’m especially interested in systems where:
 I don’t chase trends.  
 I build systems that can survive **being questioned**.
 
-SenkNet is my answer to:
+WorkFit is my answer to:
 
 > *“What if software decisions had to be honest?”*
 
