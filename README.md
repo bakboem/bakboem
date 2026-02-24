@@ -1,136 +1,140 @@
 
+
 # 👋 Hi, I’m 白帆 (bakboem)
 
-Solo Founder · CEO & CTO  
-Full-stack engineer & infrastructure architect based in Korea.
+System Builder · Solo Founder  
+AI-Orchestrated Software Architect based in Korea.
 
-I run a **one-person software company** building **stateful matching systems**,  
-**event-driven backends**, and **fully reproducible infrastructure** — end to end.
+I no longer define myself as a “full-stack engineer.”
 
-I don’t build feeds.  
-I don’t build generic communities.  
-I build systems that can **freeze a moment, make a decision, and explain it**.
+I design systems that enforce boundaries —  
+and I use AI agents to build, test, and stress them.
 
----
-
-## 🧭 What I’m Building
-
-### **WorkFit — A Real-Time Need Verification & Matching Engine**
-
-WorkFit is a matching-first platform for foreigners in Korea.
-
-It is **not** a social timeline.  
-It is a system designed around **ephemeral needs** and **repeatable judgment**.
-
-Core principles:
-
-- Needs are **time-bounded and state-frozen**
-- Each match is a **single, explainable decision**
-- No long-term personality profiling
-- No hidden preference inference
-- Every outcome is **replayable, inspectable, and auditable**
-
-What the system is optimized for:
-
-- High-concurrency matching under constrained time windows
-- Event-driven pipelines (Kafka / NATS)
-- Deterministic scoring with full explainability
-- WebSocket-based feedback and intent loops
-- Multilingual runtime (CN / KR / EN)
-
-This is the **core product** and the system I am actively operating and stress-testing.
+I don’t write most of the execution code anymore.  
+I design the structure, freeze the invariants, and let autonomous tooling implement within those constraints.
 
 ---
 
-## 🏗 Infrastructure Philosophy
+## 🧭 What I Build
 
-I operate **enterprise-grade infrastructure as a one-person company**.
+### WorkFit — A Causality-Controlled Matching Engine
 
-Design rules:
+WorkFit is a real-time matching system built around:
 
-- Full automation
-- No hidden state
-- No environment drift
-- Production ≈ Local
+- Time-bounded needs  
+- Deterministic evaluation  
+- Frozen state transitions  
+- Replayable decisions  
 
-Current architecture highlights:
+It is not feed-based.  
+It is not engagement-driven.
 
-- AWS single-server architecture (t4g + Docker Compose)
-- PostgreSQL 18 (self-built, full control, no managed DB)
-- Kafka (KRaft) + NATS as the event backbone
-- Prometheus / Loki / Grafana as a separate observability plane
-- GitHub Actions → ECR → reproducible deployments
-- Local / test / prod with **100% configuration parity**
+It is a system where:
 
-Goal:
+> A decision must be explainable, auditable, and structurally irreversible.
 
-> **Maximum system clarity with minimum operational surface area.**
+Core model:
 
----
+- Unidirectional semantic flow  
+- Matching as the only source of fact  
+- Lifecycle strictly separated from evaluation  
+- Seat limits as frozen truth  
+- Late evidence cannot rewrite history  
 
-## 🧠 What I Care About
+Every outcome is:
 
-- Matching systems under real-world constraints
-- Explainable, replayable decision pipelines
-- Event-driven architectures that don’t lie
-- Stateful systems that respect time and causality
-- Multilingual platforms with real operational depth
-
-I’m especially interested in systems where:
-
-> *Every result must be defensible.*
+- Inspectable  
+- Traceable  
+- Non-retroactive  
 
 ---
 
-## 🛠 Tech Stack (Current)
+## 🏗 How I Build
 
-**Backend**
-- Go
-- PostgreSQL 18
-- Kafka (KRaft)
-- NATS
-- Redis / ElastiCache
+I operate as a one-person system laboratory.
 
-**Infrastructure**
-- AWS (EC2, EBS, ECR)
-- Terraform
-- GitHub Actions
-- Docker Compose
-- Make / Bash automation
+AI agents execute.  
+I define constraints.
 
-**Observability**
-- Fluent Bit
-- Loki
-- Prometheus Agent
-- Grafana
+My workflow is:
 
-**Frontend**
-- Next.js (App Router, SSR)
-- Multilingual routing
+1. Freeze invariants  
+2. Define boundaries  
+3. Split modules  
+4. Orchestrate agents  
+5. Verify causality  
+6. Stress-test failure paths  
 
-**AI (Selective, Non-Magical)**
-- OpenAI API
-- Structured workflows
-- Agent integration as tooling, not decision authority
+AI is not decision authority.  
+It is execution force inside rule fences.
 
 ---
 
-## 🤝 Open to Conversations About
+## 🧠 What Defines Me Now
 
-- Matching engines
-- Event-driven systems
-- Explainability-first architectures
-- Agent-assisted (not agent-controlled) products
-- DSL-based world or rule systems
+I care less about writing features.  
+I care about:
+
+- Structural integrity under expansion  
+- Semantic drift prevention  
+- Cross-repo governance  
+- Deterministic pipelines  
+- Failure-first architecture design  
+
+If a system cannot survive adversarial questioning,  
+it is not finished.
 
 ---
 
-## ⚡ Personal Note
+## 🏗 Infrastructure Philosophy (Current State)
 
-I don’t chase trends.  
-I build systems that can survive **being questioned**.
+- Deterministic builds  
+- No silent mutation  
+- Lifecycle immutability  
+- Deployment reproducibility  
+- Observability separated from business plane  
+- Single source of truth for evaluation  
 
-WorkFit is my answer to:
+Production ≈ Local  
+Rules > Code  
+Structure > Velocity  
 
-> *“What if software decisions had to be honest?”*
+---
 
+## 🤖 AI Usage Model
+
+AI agents:
+
+- Implement tasks  
+- Run tests  
+- Generate diffs  
+- Stress boundary assumptions  
+
+But:
+
+- They do not define business invariants  
+- They do not alter semantic contracts  
+- They do not bypass lifecycle rules  
+
+I am not coding faster.
+
+I am designing systems that remain stable while being coded by machines.
+
+---
+
+## ⚡ Current Identity
+
+I am a System Builder.
+
+I build:
+
+- Controlled-input architectures  
+- Event-driven state machines  
+- Explainable judgment engines  
+- Governance-aware execution frameworks  
+
+WorkFit is not just a product.
+
+It is an experiment in:
+
+> What happens when software decisions must respect causality?
