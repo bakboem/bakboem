@@ -18,7 +18,8 @@ I design the structure, freeze the invariants, and let autonomous tooling implem
 ## 🧭 What I Build
 
 ### WorkFit — A Causality-Controlled Matching Engine
-
+[WorkFit — A Causality-Controlled Matching Engine](https://www.senk.io)
+https://senk.io
 WorkFit is a real-time matching system built around:
 
 - Time-bounded needs  
