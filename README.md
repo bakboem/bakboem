@@ -1,5 +1,7 @@
 
 
+
+
 # 👋 Hi, I’m 白帆 (bakboem)
 
 System Builder · Solo Founder  
@@ -14,6 +16,10 @@ I don’t write most of the execution code anymore.
 I design the structure, freeze the invariants, and let autonomous tooling implement within those constraints.
 
 ---
+
+
+<img width="1530" height="1384" alt="图像2026  8  30  上午8 18" src="https://github.com/user-attachments/assets/0b5c116d-f45a-47ab-86d5-0f079683d10b" />
+
 
 ## 🧭 What I Build
 
